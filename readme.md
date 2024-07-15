@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Rauhauser/WD-HANDS-ON-2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
@@ -57,13 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Focuses on the uses of many pages and complex css designs that features different styles in different pages.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This website is meticulously designed to showcase my current knowledge and skills in web development, highlighting my ability to create visually appealing and interactive web pages using modern technologies. The site features a sophisticated landing page, followed by several subsequent pages, each presenting unique designs and functionalities, thereby demonstrating my versatility and creativity in web design.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
