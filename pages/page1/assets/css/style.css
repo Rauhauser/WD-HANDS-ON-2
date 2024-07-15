@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('/pages/page1/assets/background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+blockquote {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20% auto 10px;
+    max-width: 80%;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+p.importance {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+header .logo-placeholder:hover {
+    animation: spin 1s linear infinite;
+}

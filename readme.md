@@ -9,7 +9,7 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-HANDS-ON-2</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -57,7 +57,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Focuses on the uses of many pages and complex css designs that features different styles in different pages.
 
 Guiding Question:
 - What is the project
@@ -68,9 +68,18 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+1. Navigation Bar
+2. Footer
+3. Image Gallery
+5. Hero Section
+6. Buttons
+7. Cards
+8. Social Media Icons
+9. Spinner
+10. Parallax Transition
+11. Transactional
+12. Responsive Design
+13. Interactive Elements
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,5 +125,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
+|W3schools|A guide|https://www.w3schools.com/css/css3_animations.asp|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |

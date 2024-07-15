@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.cdnfonts.com/css/installer-2');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'VALORANT', sans-serif;
+    background-color: #ff0000;
+    background-image: url('/assets/img/Valorant-Agent-Jett-PNG.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 850px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown{
+    font-size: 20px;
+}
+.body-content {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Adjust text color as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    margin-top: 30vh; /* Adjust to move paragraph lower */
+    width: 80%; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-content p {
+    font-family: 'INSTALLER', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
